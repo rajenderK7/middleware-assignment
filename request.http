@@ -1,7 +1,7 @@
-GET http://localhost:3000/get-users
+GET http://localhost:3000/user-api/get-users
 
 ###
-POST http://localhost:3000/add-user
+POST http://localhost:3000/user-api/add-user
 Content-Type: application/json
 
 {
@@ -13,7 +13,7 @@ Content-Type: application/json
 
 
 ###
-PUT http://localhost:3000/update-user/11
+PUT http://localhost:3000/user-api/update-user/1
 Content-Type: application/json
 
 {
@@ -21,4 +21,4 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:3000/delete-user/9
+DELETE http://localhost:3000/user-api/delete-user/9
