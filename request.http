@@ -1,0 +1,24 @@
+GET http://localhost:3000/get-users
+
+###
+POST http://localhost:3000/add-user
+Content-Type: application/json
+
+{
+    "id": 11,
+    "name": "Batman",
+    "username": "batman7",
+    "email": "batman@gotham.city"
+}
+
+
+###
+PUT http://localhost:3000/update-user/11
+Content-Type: application/json
+
+{
+    "username": "batman_7"
+}
+
+###
+DELETE http://localhost:3000/delete-user/9
