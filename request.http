@@ -22,3 +22,17 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:3000/user-api/delete-user/9
+
+
+###
+GET http://localhost:3000/product-api/get-products
+
+###
+POST http://localhost:3000/product-api/add-product
+Content-Type: application/json
+
+{
+    "id": 21,
+    "title": "iPhone 13 Pro",
+    "price": 1200
+}

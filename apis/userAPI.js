@@ -1,5 +1,4 @@
 // import express module
-const { response } = require("express");
 const exp = require("express");
 
 // import dummy users data.

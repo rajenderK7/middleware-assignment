@@ -4,6 +4,9 @@ const exp = require("express");
 // import userApi
 const userApi = require("./apis/userAPI");
 
+// import productApi
+const productApi = require("./apis/productAPI");
+
 // create the express object (API).
 const app = exp();
 
@@ -12,6 +15,9 @@ app.use(exp.json());
 
 // Using the userApi
 app.use("/user-api", userApi);
+
+// Using the productApi
+app.use("/product-api", productApi);
 
 // handling invalid paths.
 // middileware for handling invalid paths
